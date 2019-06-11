@@ -1,0 +1,6 @@
+{
+  "presets": [
+    ["env", { "modules": false }] // 禁止babel模块处理，使用webpack模块处理，这样就可以使用TreeShaking功能
+  ],
+  "comments": false // comments: false：不保留注释信息
+}
